@@ -152,6 +152,22 @@ $ docker image rm [IMAGE]
 $ docker rmi $(docker images -a -q)
 ```
 
+### Create an Image From a Container
+```
+docker commit [container ID]
+```
+
+### Tag the Image
+```
+docker tag [ID] [TAG]
+```
+
+### Push the Image to docker hub
+```
+docker push [REPO]
+```
+
+
 #### TIP: ABOUT IMAGES
 
 - Images are app bianaries and dependencies with meta data about the image data and how to run the image
